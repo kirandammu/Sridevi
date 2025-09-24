@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Balthazar&family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+::-webkit-scrollbar{
+    display: none;
+    behavior: smooth;
+}
+*{
+    font-family: "roboto";
+}
+
+@media (max-width: 600px) {
+  .category {
+    width: 100%; /* Stacks columns vertically */
+    margin: 0 0 10px 0;
+    display: flex;
+    row-gap: 20px;
+    overflow-x: scroll;
+  }
+}
